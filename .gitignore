@@ -1,6 +1,15 @@
+### WebMachine ###
 ebin
 deps
 traces
 priv/log
 .eunit
 Mnesia.nonode@nohost
+
+### Erlang ###
+.eunit
+deps
+*.o
+*.beam
+*.plt
+erl_crash.dump
