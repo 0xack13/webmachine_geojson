@@ -1,0 +1,18 @@
+%%-*- mode: erlang -*-
+{application, webmachine_geojson,
+ [
+  {description, "webmachine_geojson"},
+  {vsn, "1"},
+  {modules, []},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  inets,
+                  crypto,
+                  mochiweb,
+                  webmachine
+                 ]},
+  {mod, { webmachine_geojson_app, []}},
+  {env, []}
+ ]}.
