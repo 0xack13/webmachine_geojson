@@ -1,0 +1,6 @@
+ebin
+deps
+traces
+priv/log
+.eunit
+Mnesia.nonode@nohost
