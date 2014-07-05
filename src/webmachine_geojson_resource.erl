@@ -10,4 +10,4 @@
 init([]) -> {ok, undefined}.
 
 to_html(ReqData, State) ->
-    {"<html><body>Hello, new world</body></html>", ReqData, State}.
+    {"<html><body>This is gonna be fun!</body></html>", ReqData, State}.
